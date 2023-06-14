@@ -4,8 +4,7 @@
 body {
     background-image: url(assets/background-img-1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
 }
 
 /* Navigation Bar */ 
@@ -21,15 +20,49 @@ body {
     width: 12.5rem;
 }
 
-/* Right Hero */ 
+/* Hero Section  */ 
 
 .first-row, .second-row {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 7.625rem;
-    margin-top 10rem;
 }
 
 .right-side p {
     font-family: 'Poppins', sans-serif;
     font-size: 0.85rem;
 }
+
+.hero-button {
+   color: rgba(255, 0, 0, 1); 
+   text-decoration: none;
+   border-style: solid;
+   border-radius: 0;
+   padding: 2rem;
+}
+
+@media only screen and (max-width: 375px) {
+    .first-row {
+        position: relative;
+        left: 7rem;
+        font-size: 2rem;
+    }
+    .second-row {
+        position: relative;
+        bottom: 1.5rem;
+        left: 8rem;
+        font-size: 2rem; 
+    }
+    .right-side p {
+        position: relative;
+        left: 6rem;
+        text-align: center;
+    }
+
+    .hero-button {
+        position: relative; 
+        width: 10rem;
+        left: 6rem;
+        padding: 1rem;
+    }
+}
+  
