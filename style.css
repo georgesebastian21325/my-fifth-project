@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url(assets/background-img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navigation Bar */ 
+.navbar li {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 3rem;
+}
+.tab-group > .nav-button {
+    font-family: 'Bebas Neue', sans-serif;
+    background: rgba(255, 0, 0, 1);
+    border-color: rgba(255, 0, 0, 1);
+    border-radius: 0%;
+    width: 12.5rem;
+}
+
+/* Right Hero */ 
+
+.first-row, .second-row {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7.625rem;
+    margin-top 10rem;
+}
+
+.right-side p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+}
