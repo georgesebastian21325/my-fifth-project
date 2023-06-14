@@ -40,7 +40,10 @@ body {
    padding: 2rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
+    .collapse {
+        text-align: start;
+    }
     .first-row {
         position: relative;
         left: 7rem;
@@ -57,7 +60,6 @@ body {
         left: 6rem;
         text-align: center;
     }
-
     .hero-button {
         position: relative; 
         width: 10rem;
@@ -65,4 +67,3 @@ body {
         padding: 1rem;
     }
 }
-  
