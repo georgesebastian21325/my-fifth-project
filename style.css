@@ -40,7 +40,25 @@ body {
    padding: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1194px) {
+    .first-row, .second-row {
+        font-size: 6rem;
+    }
+    .hero-button {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .first-row, .second-row {
+        font-size: 4.5rem;
+    }
+    .hero-button {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
     .collapse {
         text-align: start;
     }
